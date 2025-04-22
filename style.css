@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Orbitron:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bytesized", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #15677b, #670f5d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    color: #fcd34d;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 16px;
+    font-style: italic;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    border: 13px solid #15688e;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 20px rgba(113, 115, 119, 0.5);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: transparent;
+    box-shadow: 0 3px 15px rgba(113, 115, 119, 0.5);
+    font-size: 40px;
+    text-align: right;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+
+input::placeholder {
+    color: #7a919c;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+button:hover {
+    background-color: #960786;
+}
+
+button:active {
+    box-shadow: 8px 8px 15px rgba(113, 115, 119, 0.5);
+}
+
+.equalButton {
+    background: #ff8800;
+    color: white;
+}
+
+.operator {
+    background: #f8d671;
+    color: black;
+}
+
+.nicheke3 {
+    background: #a8eeff;
+    color: #000;
+}
