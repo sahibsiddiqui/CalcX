@@ -1,1 +1,1 @@
-# QuickCalc
+# CalcX
